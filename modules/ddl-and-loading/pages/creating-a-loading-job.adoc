@@ -202,7 +202,7 @@ include::partial$load-statement.adoc[]
 
 == Attributes and attribute expressions
 
-A `LOAD` statement processes each line of an input file, splitting each lin into a sequence of tokens.
+A `LOAD` statement processes each line of an input file, splitting each line into a sequence of tokens.
 Each destination clause provides a token-to-attribute mapping which defines how to construct a new vertex, an edge, or a temp table row instance (e.g., one data object).
 The tokens can also be thought of as the column values in a table.
 There are two ways to refer to a column, by position or by name.
